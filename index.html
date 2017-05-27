@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX异步文件上传</title>
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+        <p id="upfile">
+            附件：<input type="file" value="上传" id="myfile" style="display:inline">
+        </p>
+        <p id="upbtn">
+            <input type="button" value="异步上传" onclick="upload()">
+            <span id="uptxt" style="display: none">正在上传....</span>
+            <span id="upprog"></span>
+            <button id="stopbtn" style="display: none">终止上传</button>
+        </p>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
